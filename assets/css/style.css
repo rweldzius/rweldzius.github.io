@@ -1,10 +1,11 @@
-/* Look carried over from the Weebly site: black header, serif text, blue links. */
+/* Navy header, serif text, blue links. */
 :root {
   --ink: #111;
   --muted: #555;
   --link: #0a30e8;
   --rule: #ddd;
-  --header: #000;
+  --header: #0f2340;
+  --header-hover: #1d3a63;
   --panel: #f6f6f4;
   --serif: "Times New Roman", Times, Georgia, serif;
   --max: 980px;
@@ -44,10 +45,10 @@ a:hover { text-decoration: underline; }
 .dropdown {
   list-style: none; margin: 0; padding: 6px 0; display: none;
   position: absolute; right: 0; top: 100%; z-index: 10;
-  background: #000; min-width: 290px; border: 1px solid #333;
+  background: var(--header); min-width: 290px; border: 1px solid var(--header-hover);
 }
 .site-nav .dropdown a { text-transform: none; letter-spacing: 0; font-size: 16px; }
-.site-nav .dropdown a:hover, .site-nav .dropdown a.active { background: #222; text-decoration: none; }
+.site-nav .dropdown a:hover, .site-nav .dropdown a.active { background: var(--header-hover); text-decoration: none; }
 .has-dropdown:hover .dropdown, .has-dropdown:focus-within .dropdown { display: block; }
 .nav-toggle, .nav-toggle-label { display: none; }
 
