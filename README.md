@@ -12,7 +12,6 @@ automatically about a minute after any change is pushed or saved on github.com.
    | Book Projects                         | `books.yml`         |
    | Peer-Reviewed Publications            | `peer_reviewed.yml` |
    | Other Publications                    | `other.yml`         |
-   | Under Review                          | `under_review.yml`  |
    | Working Papers & Works in Progress    | `working.yml`       |
 
 2. Paste a new block at the **top** of the list (below the comments):
@@ -41,7 +40,7 @@ automatically about a minute after any change is pushed or saved on github.com.
 3. **Wrap values in "double quotes"** if they contain a colon followed by a
    space (most titles with subtitles do).
 
-To move a paper from "Under Review" to "Peer-Reviewed", cut its block from one
+To move a paper from "Working Papers" to "Peer-Reviewed" once it is accepted, cut its block from one
 file and paste it at the top of the other, then add `authors`, `year`, `venue`,
 and `details`.
 
