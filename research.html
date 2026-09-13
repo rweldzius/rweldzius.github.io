@@ -1,0 +1,23 @@
+---
+layout: default
+title: Research
+---
+{% comment %}
+  Papers live in _data/research/*.yml, one file per section below.
+  To add a paper, edit that file. You never need to touch this page.
+{% endcomment %}
+
+<h2 class="section">Book Projects</h2>
+{% include paper-list.html papers=site.data.research.books %}
+
+<h2 class="section">Peer-Reviewed Publications <small>[<a href="{{ site.scholar }}" target="_blank" rel="noopener">Google Scholar</a>]</small></h2>
+{% include paper-list.html papers=site.data.research.peer_reviewed %}
+
+<h2 class="section">Other Publications</h2>
+{% include paper-list.html papers=site.data.research.other %}
+
+<h2 class="section">Under Review</h2>
+{% include paper-list.html papers=site.data.research.under_review %}
+
+<h2 class="section">Working Papers &amp; Works in Progress</h2>
+{% include paper-list.html papers=site.data.research.working %}

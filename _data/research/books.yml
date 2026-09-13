@@ -1,0 +1,87 @@
+# BOOK PROJECTS
+#
+# The list shows in the order written here, so put new papers at the TOP.
+# To add one: copy a block (from "- title:" down to the next "- title:"),
+# paste it just below these comments, and edit. Leave out any line you
+# don't need. Keep the two-space indentation. Wrap text in "quotes" if it
+# contains a colon followed by a space.
+#
+#   title:    shown in bold
+#   authors:  "First Last and First Last" (leave out for solo-authored WIP)
+#   year:     2026
+#   venue:    journal or book, shown in italics
+#   details:  volume/issue/pages, e.g. "33(3): 514–32"
+#   note:     shown in parentheses, e.g. "with Nils Gudat"
+#   abstract: shown when the entry is clicked open; start each paragraph on a
+#             new line and put a blank line between paragraphs
+#   links:    buttons under the abstract. url can be a web address or a file
+#             you put in the files/ folder, e.g. files/my_appendix.pdf
+#
+# *italics* and **bold** work in any field.
+
+- title: "The Exporters' Paradox: How Global Production Reshaped the Politics of Exchange Rates"
+  note: manuscript in preparation
+  abstract: >
+    As the most important price in a domestic economy, the exchange rate is an essential
+    tool for politicians seeking the support of economic interest groups. An undervalued
+    exchange rate supports domestic exporters of goods and services, as well as those
+    who compete with foreign imports. Over the last 50 years, many countries maintained
+    an undervalued exchange rate as a key factor in their development strategy -- e.g.,
+    China, Germany, Japan, South Korea, and Taiwan. This strategy, however, drew the ire
+    of rich country governments who argued that this currency manipulation puts their
+    domestic industries at a competitive disadvantage. Despite the success of this
+    strategy for export-led growth and the lack of an international mechanism to punish
+    currency manipulators, currency manipulation receded after its 2013 peak -- almost
+    disappearing entirely in 2019 --, but reversed course during the COVID-19 pandemic.
+    *The Exporters' Paradox* provides a novel explanation for why governments might
+    end their strategy of currency manipulation and what factors might spark a reversal.
+
+    I argue that the globalization of production over the last two decades, where firms
+    increasingly rely on imported inputs to produce their final goods, has changed the
+    conventional benefits of an undervalued exchange rate. When firms import more
+    inputs, an undervalued exchange rate does not provide a competitive boost to exports
+    and currency manipulation recedes; however, when a global shock disrupts production
+    networks -- e.g., during the COVID-19 lock downs -- the benefits of an undervalued
+    exchange rate can return, sparking a new, albeit smaller, bout of currency wars. I
+    test the theoretical implications of my model of exchange rate politics using a mix
+    of cross-country data, firm-level survey data, and elite interviews in Czechia,
+    Japan, South Korea, and Taiwan.
+
+    Today, global value chains account for more than 70% of global trade. An important
+    contribution of this book is in its detailed explanation for how these value chains
+    affect exchange rate politics, in particular, in reversing currency manipulation. I
+    intend for the book to be accessible to advanced undergraduate students,
+    policymakers, as well as a general audience with some background knowledge of the
+    subject matter.
+
+- title: "Reshoring Global Supply Chains: When Governments Act Under Geoeconomic Risk"
+  note: "manuscript in preparation; under contract with Cambridge University Press, *Elements Series* \"Globalization and Supply Chains\""
+  abstract: >
+    Why have only some governments committed substantial public funds to reshoring
+    strategic production, even as supply chain vulnerabilities have become widely
+    visible? Since 2020, a small number of advanced economies—including the European
+    Union, Germany, India, Japan, South Korea, Taiwan, and the United States—have
+    announced more than $300 billion in subsidies to repatriate semiconductor,
+    pharmaceutical, and advanced manufacturing production, while many similarly exposed
+    countries have done nothing.
+
+    This *Element* develops a political economy framework to explain that variation. At
+    its core, the argument is simple: governments reshore when they are vulnerable
+    enough to worry, distrustful enough to act, and capable enough to succeed. More
+    formally, reshoring requires the alignment of three conditions: dependence that is
+    significant but not prohibitively costly to unwind, low bilateral trust toward the
+    supplier country, and sufficient domestic capacity to scale production.
+
+    The framework extends the trust mechanism to encompass compound exposure, where
+    dependence on a trusted partner becomes intolerable when that partner is itself
+    vulnerable to disruption by a hostile power. While general, the empirical focus is
+    on dependence on China, which dominates contemporary reshoring debates. The argument
+    is tested through cross-national analysis (2007–2025) and three matched case
+    studies: the United Kingdom and Germany (vulnerability), India and Mexico (trust),
+    and the United States and Australia (capacity), drawing on fieldwork and interviews
+    conducted between 2024 and 2026.
+
+    The *Element* shows that reshoring is not a return to protectionism but a distinct
+    form of geoeconomic statecraft. The findings explain cross-national variation,
+    clarify when governments bear the costs of supply chain reconfiguration, and
+    anticipate where reshoring will expand—and where it will stall.

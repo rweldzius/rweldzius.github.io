@@ -1,0 +1,33 @@
+title: "Ryan Weldzius, PhD"
+description: "Assistant Professor of Political Science, Villanova University. Research on the political economy of exchange rates, global value chains, and economic interdependence."
+url: "https://www.ryanweldzius.com"
+email: "ryan.weldzius[at]villanova.edu"
+twitter: ryanweldzius
+scholar: "https://scholar.google.com/citations?user=16VmMg4AAAAJ&hl=en"
+
+# Top menu. Items with "children" become a dropdown.
+nav:
+  - title: Home
+    url: /
+  - title: Research
+    url: /research.html
+  - title: CV
+    url: /cv.html
+  - title: Teaching
+    url: /teaching.html
+  - title: Data Viz
+    children:
+      - title: Currency Power Simulation
+        url: /currency-power-sim.html
+      - title: World Economics and Politics Dataverse
+        url: /world-economics-and-politics-dataverse-sample.html
+      - title: Supply Chain Vulnerability
+        url: /supply-chain-vulnerability.html
+  - title: Contact
+    url: /contact.html
+
+markdown: kramdown
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

@@ -1,0 +1,45 @@
+---
+layout: default
+wide: true
+---
+{% comment %}
+  Shiny app page. Front matter: title, app_url, app_height, optional preview (image path).
+  The page loads instantly; the app only loads when the visitor clicks Launch.
+{% endcomment %}
+<h2 class="section">{{ page.title }}</h2>
+<div class="app-intro">{{ content }}</div>
+
+<div class="app-frame" id="app-frame" data-src="{{ page.app_url }}" data-height="{{ page.app_height | default: 1000 }}">
+  <div class="app-launch"{% if page.preview %} style="background-image: linear-gradient(rgba(255,255,255,.82), rgba(255,255,255,.82)), url('{{ page.preview | relative_url }}')"{% endif %}>
+    <button type="button" id="app-launch-btn">Launch interactive app</button>
+    <div class="app-note">
+      Runs on shinyapps.io. If the app has been idle, it can take up to 30 seconds to start.<br>
+      <a href="{{ page.app_url }}" target="_blank" rel="noopener">Open in a new tab</a>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  var frame = document.getElementById('app-frame');
+  var src = frame.dataset.src;
+
+  // Wake the app as soon as the page opens, so it is often ready by the time
+  // the visitor clicks. The response is opaque and ignored.
+  try { fetch(src, { mode: 'no-cors', cache: 'no-store' }); } catch (e) {}
+
+  document.getElementById('app-launch-btn').addEventListener('click', function () {
+    var loading = document.createElement('div');
+    loading.className = 'app-loading';
+    loading.textContent = 'Starting the app…';
+    var iframe = document.createElement('iframe');
+    iframe.src = src;
+    iframe.title = {{ page.title | jsonify }};
+    iframe.style.height = frame.dataset.height + 'px';
+    iframe.addEventListener('load', function () { loading.remove(); });
+    frame.innerHTML = '';
+    frame.appendChild(loading);
+    frame.appendChild(iframe);
+  });
+})();
+</script>

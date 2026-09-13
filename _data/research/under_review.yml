@@ -1,0 +1,121 @@
+# UNDER REVIEW
+#
+# The list shows in the order written here, so put new papers at the TOP.
+# To add one: copy a block (from "- title:" down to the next "- title:"),
+# paste it just below these comments, and edit. Leave out any line you
+# don't need. Keep the two-space indentation. Wrap text in "quotes" if it
+# contains a colon followed by a space.
+#
+#   title:    shown in bold
+#   authors:  "First Last and First Last" (leave out for solo-authored WIP)
+#   year:     2026
+#   venue:    journal or book, shown in italics
+#   details:  volume/issue/pages, e.g. "33(3): 514–32"
+#   note:     shown in parentheses, e.g. "with Nils Gudat"
+#   abstract: shown when the entry is clicked open; start each paragraph on a
+#             new line and put a blank line between paragraphs
+#   links:    buttons under the abstract. url can be a web address or a file
+#             you put in the files/ folder, e.g. files/my_appendix.pdf
+#
+# *italics* and **bold** work in any field.
+
+- title: "Currency Power in Transition: Production Networks and China's Challenge to Dollar Dominance"
+  abstract: >
+    Major changes in international currency hierarchies have historically coincided with
+    shifts in strategically important commodity systems. As the global economy moves
+    from fossil fuels toward critical minerals and green manufacturing, this paper asks
+    whether the foundations of monetary power may be changing again. I argue that
+    currencies gain international influence when states occupy central positions in
+    strategically important production networks and build the financial infrastructure
+    that makes their currencies easier to use in cross-border trade. A dynamic model
+    shows how these forces can reinforce one another over time. Cross-national evidence
+    is consistent with this argument. Countries exporting critical minerals to China are
+    substantially more likely to adopt renminbi settlement infrastructure than countries
+    exporting other goods, reflecting China's chokehold on critical-mineral processing
+    and downstream manufacturing. This relationship persists after accounting for
+    geopolitical alignment and despite China's extensive capital controls. Historical
+    evidence from the transition from coal to oil shows that changes in strategically
+    important production systems have reshaped currency hierarchies before. Simulations
+    indicate that structural change alone substantially increases renminbi use but
+    leaves the existing monetary hierarchy largely intact. Overtaking the euro and
+    mounting a sustained challenge to the dollar additionally require the financial
+    liberalization Beijing has so far declined.
+
+- title: Political Cleavages and Exposure to the Global Financial Crisis
+  note: with James Raymond Vreeland and James H. Bisbee
+  abstract: >
+    Can a financial crisis tip the domestic balance of power between the winners and
+    losers of globalization? In this paper, we trace that roots of contemporary elite
+    polarization in American politics to the differential impact of the 2008 global
+    financial crisis. We examine firms’ corporate campaign contributions and lobbying
+    expenditures before and after the financial crisis, finding that firms more
+    insulated from the crisis experience a relative increase in their political
+    expenditure profiles. We then identify the recipients of these expenditures, tracing
+    the inversion of political capital to the proliferation of less mainstream
+    candidates in federal elections. Our findings provide a causal mechanism through
+    which elite polarization has grown in American politics: exposure to the global
+    financial crisis caused a shift in political capital from the incumbent winners from
+    globalization to anti-globalization challengers.
+  links:
+    - label: Paper
+      url: files/wvb_exposure_to_gfc_2022.pdf
+    - label: Niehaus Center summary
+      url: https://niehaus.princeton.edu/backlash-against-globalization-what%E2%80%99s-next
+
+- title: "Redistributing Crisis: Monetary Union and Political Backlash in Europe"
+  abstract: >
+    The 2008 financial crisis fueled populist gains across Europe, but not the same
+    populists everywhere. UKIP, Fidesz, PiS, and the Sweden Democrats rose outside the
+    Eurozone; Syriza, Podemos, and the Movimento 5 Stelle rose within it. Why did a
+    common shock push voters toward different ends of the populist spectrum on either
+    side of the same institutional boundary? I argue that the adjustment instruments a
+    monetary regime makes available shape where voters assign blame. Outside the
+    Eurozone, depreciation absorbs part of the shock and the hardship that remains is
+    read through globalization and immigration—the populist right's terrain. Inside it,
+    fiscal constraint and conditionality direct discontent toward Brussels and
+    Frankfurt, which the populist left mobilizes. Monetary union does not dampen
+    backlash; it redirects it. Because the two responses move in opposite directions,
+    they cancel in aggregate populist measures, which helps explain why the
+    institutional effect has gone unnoticed. Regional, individual, and party-level
+    evidence support the pattern, and the post-2020 NextGenerationEU reform appears to
+    have weakened it.
+
+- title: Monopolies for Sale? The (Anti-)Competitive Effects of Free Trade Agreements
+  note: with Nils Gudat
+  abstract: >
+    Why do some industries experience persistent productivity gains and competitive
+    pressures from trade liberalization, while others see these effects fade or even
+    reverse over time? Moreover, does firm-level lobbying explain these latter effects?
+    Standard models of international trade predict uniform competitive responses, yet
+    empirical outcomes remain uneven and often puzzling. This paper tests the
+    predictions of the Melitz-Ottaviano model of international trade with heterogeneous
+    firms, focusing on the dynamics of aggregate prices, markups, and productivity in
+    response to tariff reductions and increased trade openness. We derive regression
+    equations from the model’s equilibrium conditions to separately identify short- and
+    long-run effects. We estimate this framework using sectoral data across NAFTA member
+    countries---Canada, Mexico, and the United States---from 1988 to 2008 as well as the
+    US–Korea Free Trade Agreement (KORUS-FTA), leveraging firm-level lobbying data from
+    LobbyView to explore the political economy of trade liberalization. Consistent with
+    the model, we find that trade openness exerts pro-competitive effects in the short
+    run, lowering prices and markups while boosting productivity, but these gains often
+    erode in the long run. Using lobbying data, we show that these anti-competitive
+    long-run outcomes stem from the endogenous role of industry lobbying, suggesting
+    monopolies are indeed for sale.
+
+- title: "Conferred, Not Seized: Economic Dependence and the Limits of Monetary Power"
+  note: with James H. Bisbee
+  abstract: >
+    China has become the world's largest trading nation, yet no country has anchored its
+    exchange rate to the renminbi. We use this puzzle to address a longstanding debate
+    over whether globalization erodes monetary autonomy. Post-Bretton Woods theories
+    predicted that increasing capital mobility would force governments' monetary
+    policies to converge, but influential empirical work found little evidence of such.
+    Using cross-national data on monetary policy tools and economic interdependence from
+    2000 to 2025, we find that convergence was largely a feature of the long era of
+    global disinflation and faded once that era ended after the COVID-19 pandemic.
+    Bilateral economic dependence explains little of this pattern except among economies
+    with relatively closed capital accounts. China's rise thus reveals an important
+    limit on monetary power: economic size alone is insufficient to make a currency a
+    monetary anchor. Monetary influence depends on the extent to which other economies
+    become institutionally and financially tied to a currency. China's expanding trade
+    has increased the renminbi's international use, but not those ties.

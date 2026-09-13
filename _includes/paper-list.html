@@ -1,0 +1,27 @@
+{% comment %}
+  Renders one research section as a list of accordions.
+  Usage: {% include paper-list.html papers=site.data.research.peer_reviewed %}
+{% endcomment %}
+<div class="papers">
+{% for p in include.papers %}
+  {% capture citation %}{% if p.authors %}{{ p.authors }}. {% endif %}{% if p.year and p.authors %}{{ p.year }}. {% endif %}**{{ p.title }}**{% if p.venue %}. *{{ p.venue }}*{% endif %}{% if p.details %}{% if p.venue %} {% else %}. {% endif %}{{ p.details }}{% endif %}{% if p.authors or p.venue or p.details %}.{% endif %}{% if p.note %} ({{ p.note }}){% endif %}{% endcapture %}
+  {% if p.abstract or p.links %}
+  <details class="paper">
+    <summary>{{ citation | markdownify | remove: '<p>' | remove: '</p>' | strip }}</summary>
+    <div class="paper-body">
+      {% if p.abstract %}{{ p.abstract | markdownify }}{% endif %}
+      {% if p.links %}
+      <p class="paper-links">
+        {% for l in p.links %}
+          {% assign first = l.url | slice: 0, 4 %}
+          <a href="{% if first == 'http' %}{{ l.url }}{% else %}{{ l.url | prepend: '/' | relative_url }}{% endif %}" target="_blank" rel="noopener">{{ l.label }}</a>
+        {% endfor %}
+      </p>
+      {% endif %}
+    </div>
+  </details>
+  {% else %}
+  <div class="paper paper-static">{{ citation | markdownify | remove: '<p>' | remove: '</p>' | strip }}</div>
+  {% endif %}
+{% endfor %}
+</div>

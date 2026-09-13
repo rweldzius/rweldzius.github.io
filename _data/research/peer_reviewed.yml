@@ -1,0 +1,116 @@
+# PEER-REVIEWED PUBLICATIONS
+#
+# The list shows in the order written here, so put new papers at the TOP.
+# To add one: copy a block (from "- title:" down to the next "- title:"),
+# paste it just below these comments, and edit. Leave out any line you
+# don't need. Keep the two-space indentation. Wrap text in "quotes" if it
+# contains a colon followed by a space.
+#
+#   title:    shown in bold
+#   authors:  "First Last and First Last" (leave out for solo-authored WIP)
+#   year:     2026
+#   venue:    journal or book, shown in italics
+#   details:  volume/issue/pages, e.g. "33(3): 514–32"
+#   note:     shown in parentheses, e.g. "with Nils Gudat"
+#   abstract: shown when the entry is clicked open; start each paragraph on a
+#             new line and put a blank line between paragraphs
+#   links:    buttons under the abstract. url can be a web address or a file
+#             you put in the files/ folder, e.g. files/my_appendix.pdf
+#
+# *italics* and **bold** work in any field.
+
+- title: "Beyond the Greenback: Currency Power in a Greener, More Fragmented World"
+  authors: Ryan Weldzius and Joshua Buckson
+  year: 2026
+  venue: "PS: Political Science & Politics"
+  details: 1–7
+  abstract: >
+    Structural shifts in the global economy are reshaping the foundations of
+    international currency power. This paper explores how the green transition,
+    geopolitical realignment, and sustained US protectionism could interact to transform
+    the global currency hierarchy, with a particular focus on the US dollar and the
+    Chinese renminbi. We highlight two key drivers of currency usage: the liquidity and
+    availability of a currency for cross-border transactions, and the strategic economic
+    and political alignment between currency issuers and their partners. Taking into
+    account developments in green value chains, evolving alliances, and trade policies,
+    the paper outlines how China's growing role in critical minerals, infrastructure
+    finance, and alternative financial systems can enhance the internationalization of
+    the renminbi. Concurrently, US protectionism and withdrawal from multilateralism may
+    open up space for regional currency diversification. These trends point to an
+    increasingly fragmented and multipolar international monetary system, where currency
+    power will play a central role in shaping the future global order.
+  links:
+    - label: Open Access
+      url: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A1A3E6E13F75167A0227A1F048BAE6CE/S1049096526102352a.pdf/beyond-the-greenback-currency-power-in-a-greener-more-fragmented-world.pdf
+
+- title: "Enduring the Great Recession: Economic Integration in the European Union"
+  authors: Lauren Peritz, Ryan Weldzius, Ronald Rogowski, and Thomas Flaherty
+  year: 2022
+  venue: Review of International Organizations
+  details: "17: 175–203"
+  abstract: >
+    Scholars have long feared that regional economic specialization, fostered by freer
+    trade, would make the European Union vulnerable to economic downturn. The most acute
+    concerns have been over the adoption of the common currency: by adopting the euro,
+    countries renounce their ability to meet an asymmetric shock with independent
+    revaluations of their currencies. We systematically test the prediction that
+    regional specialization increases vulnerability to economic downturn using a novel
+    dataset that covers all of the EU’s subnational regions and major sectors of the
+    economy between 2000 and 2013. We find that, contrary to conventional wisdom, the
+    most specialized regions actually fared better during the 2008-09 global financial
+    crisis. Specialized regions performed worse only in states that remained outside the
+    Eurozone. The heightened vulnerability of non-Eurozone states cannot be attributed
+    to fiscal or social policy failures. Rather, our results suggest the common currency
+    may have helped Eurozone members share risk. This bodes well for the resiliency of
+    the EU, even as it navigates another economic downturn from the asymmetric impact of
+    the novel coronavirus.
+  links:
+    - label: Paper
+      url: https://link.springer.com/article/10.1007/s11558-020-09410-0
+    - label: Appendix
+      url: files/eu_appdx_v20200904.pdf
+
+- title: The End of Currency Manipulation? Global Production Networks and Exchange Rate Outcomes
+  authors: Ryan Weldzius
+  year: 2021
+  venue: Economics and Politics
+  details: "33(3): 514–32"
+  abstract: >
+    Between 2000 and 2017, eight major exporting countries engaged in currency
+    manipulation in order to increase their trade surpluses with the rest of the world.
+    As of 2018, however, no country continued to manipulate its currency. This change in
+    policy is puzzling given the past successes of this export-led growth model. I argue
+    that the state-level decision to stop depreciating its exchange rate stems from the
+    reduced benefits and increased costs of currency manipulation. As production becomes
+    more global, the increase in traded inputs decreases the traditional benefits of a
+    depreciated currency, in particular, an increase in exports. Utilizing panel data
+    across 70+ states between 2000 and 2018, I demonstrate that global production
+    networks moderate the traditional relationship between export-dependence and
+    currency manipulation. I further discuss how this relationship may reverse given the
+    reshoring of production networks in response to the novel coronavirus pandemic.
+  links:
+    - label: Paper
+      url: https://onlinelibrary.wiley.com/doi/abs/10.1111/ecpo.12184
+    - label: Appendix
+      url: files/currencymanip_appdx_20201010.pdf
+    - label: Dataverse
+      url: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CFCXCE
+
+- title: "Ethanol Plant Location and Land Use: A Case Study of the Conservation Reserve Program and Ethanol Mandate"
+  authors: Jennifer Ifft, Deepak Rajagopal, and Ryan Weldzius
+  year: 2019
+  venue: Applied Economic Perspectives and Policy
+  details: "41(1): 37–55"
+  abstract: >
+    This study uses a county-level difference-in-difference framework to estimate the
+    share of re-enrollment into the Conservation Reserve Program (CRP) in response to
+    local ethanol production capacity after the Renewable Fuels Standard (RFS).
+    Relatively more land remained in CRP in ethanol-intensive areas after the RFS. This
+    seemingly counter-intuitive result can be explained by post-RFS changes to the CRP
+    that favored ethanol-intensive areas. Both CRP design changes and production trends
+    correlated with ethanol plant location pose challenges for empirical strategies that
+    use ethanol plant location to study production or land use decisions. Changes to CRP
+    policies can play an important role in participation and land use decisions.
+  links:
+    - label: Paper
+      url: https://onlinelibrary.wiley.com/doi/abs/10.1093/aepp/ppy007

@@ -1,0 +1,45 @@
+# OTHER PUBLICATIONS
+#
+# The list shows in the order written here, so put new papers at the TOP.
+# To add one: copy a block (from "- title:" down to the next "- title:"),
+# paste it just below these comments, and edit. Leave out any line you
+# don't need. Keep the two-space indentation. Wrap text in "quotes" if it
+# contains a colon followed by a space.
+#
+#   title:    shown in bold
+#   authors:  "First Last and First Last" (leave out for solo-authored WIP)
+#   year:     2026
+#   venue:    journal or book, shown in italics
+#   details:  volume/issue/pages, e.g. "33(3): 514–32"
+#   note:     shown in parentheses, e.g. "with Nils Gudat"
+#   abstract: shown when the entry is clicked open; start each paragraph on a
+#             new line and put a blank line between paragraphs
+#   links:    buttons under the abstract. url can be a web address or a file
+#             you put in the files/ folder, e.g. files/my_appendix.pdf
+#
+# *italics* and **bold** work in any field.
+
+- title: Political Cleavages and Exposure to the Global Financial Crisis
+  authors: Ryan Weldzius, James Raymond Vreeland, and James H. Bisbee
+  year: 2022
+  venue: "The Backlash Against Globalization: What's Next?"
+  details: Report from the Niehaus Center for Globalization and Governance, pp. 33–37
+  links:
+    - label: Report
+      url: https://niehaus.princeton.edu/backlash-against-globalization-what%E2%80%99s-next
+
+- title: "Review of *Currency Statecraft: Monetary Rivalry and Geopolitical Ambition*, by Benjamin J. Cohen"
+  authors: Ryan Weldzius
+  year: 2019
+  venue: Perspectives on Politics
+  details: "17(3): 945–6"
+  links:
+    - label: Review
+      url: https://www.cambridge.org/core/journals/perspectives-on-politics/article/abs/currency-statecraft-monetary-rivalry-and-geopolitical-ambition-by-benjamin-j-cohen-chicago-university-of-chicago-press-2019-208p-7500-cloth-2500-paper/6CC4A103F963E26FE3ED08A85B95D265
+
+- title: "World Trade Report 2014 – Trade and Development: Recent Trends and the Role of the WTO"
+  year: 2014
+  details: "Geneva: World Trade Organization"
+  links:
+    - label: Report
+      url: https://www.wto.org/english/res_e/booksp_e/world_trade_report14_e.pdf

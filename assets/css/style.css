@@ -1,0 +1,150 @@
+/* Look carried over from the Weebly site: black header, serif text, blue links. */
+:root {
+  --ink: #111;
+  --muted: #555;
+  --link: #0a30e8;
+  --rule: #ddd;
+  --header: #000;
+  --panel: #f6f6f4;
+  --serif: "Times New Roman", Times, Georgia, serif;
+  --max: 980px;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 17px;
+  line-height: 1.5;
+  color: var(--ink);
+  background: #fff;
+}
+img { max-width: 100%; height: auto; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.container { max-width: var(--max); margin: 0 auto; padding: 0 24px; }
+.container.wide { max-width: 1280px; }
+
+/* ---------- Header ---------- */
+.site-header { background: var(--header); color: #fff; }
+.header-inner {
+  display: flex; align-items: center; justify-content: space-between;
+  min-height: 94px; gap: 24px;
+}
+.site-title { color: #fff; font-size: 30px; font-weight: bold; white-space: nowrap; }
+.site-title:hover { text-decoration: none; }
+.site-nav > ul { list-style: none; margin: 0; padding: 0; display: flex; gap: 6px; }
+.site-nav li { position: relative; }
+.nav-link, .site-nav .dropdown a {
+  display: block; color: #fff; text-transform: uppercase; letter-spacing: .06em;
+  font-size: 15px; padding: 8px 14px; border: 1px solid transparent; cursor: pointer;
+}
+.nav-link:hover, .nav-link.active { border-color: #fff; text-decoration: none; }
+.dropdown {
+  list-style: none; margin: 0; padding: 6px 0; display: none;
+  position: absolute; right: 0; top: 100%; z-index: 10;
+  background: #000; min-width: 290px; border: 1px solid #333;
+}
+.site-nav .dropdown a { text-transform: none; letter-spacing: 0; font-size: 16px; }
+.site-nav .dropdown a:hover, .site-nav .dropdown a.active { background: #222; text-decoration: none; }
+.has-dropdown:hover .dropdown, .has-dropdown:focus-within .dropdown { display: block; }
+.nav-toggle, .nav-toggle-label { display: none; }
+
+@media (max-width: 760px) {
+  .header-inner { flex-wrap: wrap; min-height: 64px; }
+  .site-title { font-size: 22px; }
+  .nav-toggle-label {
+    display: block; width: 30px; height: 22px; position: relative; cursor: pointer;
+  }
+  .nav-toggle-label span, .nav-toggle-label span::before, .nav-toggle-label span::after {
+    position: absolute; left: 0; width: 30px; height: 2px; background: #fff; content: "";
+  }
+  .nav-toggle-label span { top: 10px; }
+  .nav-toggle-label span::before { top: -9px; }
+  .nav-toggle-label span::after { top: 9px; }
+  .site-nav { display: none; width: 100%; padding-bottom: 12px; }
+  .nav-toggle:checked ~ .site-nav { display: block; }
+  .site-nav > ul { flex-direction: column; gap: 0; }
+  .dropdown { display: block; position: static; border: 0; padding: 0 0 0 16px; min-width: 0; }
+  .has-dropdown > .nav-link { cursor: default; border-color: transparent; }
+}
+
+/* ---------- Page content ---------- */
+main.container { padding-top: 36px; padding-bottom: 60px; min-height: 60vh; }
+h1, h2, h3 { font-weight: bold; line-height: 1.25; }
+h2.section {
+  font-size: 26px; margin: 44px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--rule);
+}
+h2.section:first-child { margin-top: 0; }
+h2.section small { font-size: 22px; font-weight: normal; }
+hr { border: 0; border-top: 1px solid var(--rule); margin: 36px 0; }
+
+/* Home */
+.bio { display: grid; grid-template-columns: 245px 1fr; gap: 36px; align-items: start; }
+.bio-photo img { display: block; width: 245px; }
+.bio-contact { text-align: center; font-size: 16px; margin-top: 12px; }
+.bio-text p:first-child { margin-top: 0; }
+@media (max-width: 700px) {
+  .bio { grid-template-columns: 1fr; }
+  .bio-photo { text-align: center; }
+  .bio-photo img { margin: 0 auto; width: 200px; }
+}
+
+/* ---------- Research accordions ---------- */
+.papers { border-top: 1px solid var(--rule); }
+.paper { border-bottom: 1px solid var(--rule); }
+.paper > summary, .paper-static {
+  padding: 14px 40px 14px 6px; position: relative; list-style: none;
+}
+.paper > summary { cursor: pointer; }
+.paper > summary::-webkit-details-marker { display: none; }
+.paper > summary::after {
+  content: "+"; position: absolute; right: 10px; top: 12px;
+  font-size: 22px; line-height: 1; color: var(--muted); transition: transform .2s;
+}
+.paper[open] > summary::after { transform: rotate(45deg); }
+.paper > summary:hover { background: var(--panel); }
+.paper > summary:focus-visible { outline: 2px solid var(--link); outline-offset: -2px; }
+.paper-body { padding: 4px 24px 18px; }
+.paper-body p { margin: 0 0 12px; text-align: justify; }
+.paper-links { display: flex; flex-wrap: wrap; gap: 8px; text-align: left !important; }
+.paper-links a {
+  font-size: 15px; padding: 3px 12px; border: 1px solid var(--link); border-radius: 3px;
+}
+.paper-links a:hover { background: var(--link); color: #fff; text-decoration: none; }
+
+/* ---------- Teaching ---------- */
+.teaching h2 { font-size: 22px; margin: 0 0 6px; }
+.teaching h3 { font-size: 17px; margin: 18px 0 4px; }
+.teaching ul { margin: 0; padding-left: 28px; }
+
+/* ---------- CV ---------- */
+.cv-embed { width: 100%; height: 85vh; border: 1px solid var(--rule); }
+
+/* ---------- Contact ---------- */
+.contact-card { line-height: 1.6; }
+
+/* ---------- Data Viz ---------- */
+.app-intro { max-width: 760px; }
+.app-frame {
+  position: relative; width: 100%; border: 1px solid var(--rule); background: var(--panel);
+}
+.app-frame iframe { display: block; width: 100%; border: 0; }
+.app-launch {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 14px; min-height: 420px; padding: 32px; text-align: center;
+  background-size: cover; background-position: top center;
+}
+.app-launch button {
+  font: inherit; font-size: 18px; color: #fff; background: var(--link);
+  border: 0; border-radius: 4px; padding: 12px 26px; cursor: pointer;
+}
+.app-launch button:hover { background: #0724b0; }
+.app-note { color: var(--muted); font-size: 15px; }
+.app-loading {
+  position: absolute; inset: 0 0 auto 0; padding: 18px; text-align: center;
+  color: var(--muted); background: var(--panel); pointer-events: none;
+}
+
+.site-footer { border-top: 1px solid var(--rule); color: var(--muted); font-size: 14px; padding: 18px 0 28px; }

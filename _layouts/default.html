@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title and page.url != "/" %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {% if page.app_url %}<link rel="preconnect" href="https://ryanweldzius.shinyapps.io">{% endif %}
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Open menu">
+      <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true"><span></span></label>
+      <nav class="site-nav">
+        <ul>
+          {% for item in site.nav %}
+            {% if item.children %}
+              {% assign active = false %}
+              {% for c in item.children %}{% if c.url == page.url %}{% assign active = true %}{% endif %}{% endfor %}
+              <li class="has-dropdown">
+                <span class="nav-link{% if active %} active{% endif %}" tabindex="0">{{ item.title }}</span>
+                <ul class="dropdown">
+                  {% for c in item.children %}
+                    <li><a href="{{ c.url | relative_url }}"{% if c.url == page.url %} class="active"{% endif %}>{{ c.title }}</a></li>
+                  {% endfor %}
+                </ul>
+              </li>
+            {% else %}
+              {% assign item_url = item.url %}
+              {% if item_url == "/" %}{% assign item_url = "/index.html" %}{% endif %}
+              <li><a class="nav-link{% if page.url == item.url or page.url == item_url %} active{% endif %}" href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container{% if page.wide %} wide{% endif %}">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">&copy; {{ 'now' | date: "%Y" }} Ryan Weldzius</div>
+  </footer>
+</body>
+</html>

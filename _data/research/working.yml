@@ -1,0 +1,69 @@
+# WORKING PAPERS & WORKS IN PROGRESS
+#
+# The list shows in the order written here, so put new papers at the TOP.
+# To add one: copy a block (from "- title:" down to the next "- title:"),
+# paste it just below these comments, and edit. Leave out any line you
+# don't need. Keep the two-space indentation. Wrap text in "quotes" if it
+# contains a colon followed by a space.
+#
+#   title:    shown in bold
+#   authors:  "First Last and First Last" (leave out for solo-authored WIP)
+#   year:     2026
+#   venue:    journal or book, shown in italics
+#   details:  volume/issue/pages, e.g. "33(3): 514–32"
+#   note:     shown in parentheses, e.g. "with Nils Gudat"
+#   abstract: shown when the entry is clicked open; start each paragraph on a
+#             new line and put a blank line between paragraphs
+#   links:    buttons under the abstract. url can be a web address or a file
+#             you put in the files/ folder, e.g. files/my_appendix.pdf
+#
+# *italics* and **bold** work in any field.
+
+- title: "Predicting Revealed Trade Preferences: A Factor Content Approach"
+  abstract: >
+    The field of international political economy has relied upon the Heckscher-Ohlin
+    model of factor endowments to predict individual trade-policy preferences for
+    several decades. However, prior work in the field of economics has shown that a
+    country’s factor endowment only correctly predicts the direction of trade 50% of the
+    time. In this paper I include a critical assumption from the Heckscher-Ohlin model
+    in my empirical strategy, which provides a better fit to the data than all prior
+    studies on individual trade preferences. Instead of assuming that the abundant
+    factor in an economy is used intensively in the production of export goods, I
+    include the factor intensity and the direction of trade for each individual’s
+    industry of employment. I show that this factor content of trade approach better
+    fits the data than a simple factor endowment approach. Moreover, although low-
+    skilled labor exhibits consistent anti-trade preferences, the individual preferences
+    of high-skilled labor depends largely upon the factor intensity of the individual’s
+    industry of employment.
+
+- title: "Path-Dependent Explanations of Equality and Growth: A Comparative Historical Analysis of Land Reform Programs in East Asia"
+  abstract: >
+    The economies in South Korea and the Philippines diverged beginning in 1960, with
+    Korea sustaining “miraculous” growth for the next quarter century, transforming into
+    a modern industrial state, while the Philippines stagnated, remaining a poor
+    agrarian society. Although the two countries shared strikingly similar macroeconomic
+    indicators in the early 1960s, they differed on a critical indicator: income
+    distribution. In this paper, I utilize path-dependency to illustrate how Korea
+    emerged from its colonial past with a relatively more equal distribution of income
+    than the Philippines in 1960. Successful redistributive land reform in Korea after
+    World War II created an environment that was more conducive to future
+    industrialization. In contrast, land reform did not occur in the Philippines due to
+    the weakened position of the peasantry from a decade long U.S. supported
+    counterinsurgency, leaving the country in a low-output poverty trap. The analysis
+    illustrates how land reform is largely used as a mechanism for countering peasant
+    rebellions and how the unintended consequences of such reforms are conducive for
+    industrialization and long-term economic growth.
+
+- title: "Land Reform and Divergence in Economic Growth: Evidence from India"
+  abstract: >
+    Using panel time-series data from 1957-1992, Besley and Burgess (2000) find that
+    land reforms across sixteen Indian states had an appreciable effect on poverty
+    reduction, but at the cost of depressed economic growth. Using an amended data set
+    that can more precisely locate the partial equilibrium effects from land reform,
+    this analysis of the Indian land reform story gives further support to the findings
+    of Besley and Burgess, as well as analyzes how agricultural reforms in a subsistence
+    economy can create the foundation for future economic growth by supplying labor to
+    the manufacturing sectors in the industrialized core. Finally, the paper adds to the
+    debate on “good” institutions by looking at how the political reaction to a peasant-
+    based social movement affected the political disposition in India and the effective
+    implementation of land reforms.
