@@ -7,6 +7,16 @@
   <meta name="description" content="{{ page.description | default: site.description }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   {% if page.app_url %}<link rel="preconnect" href="https://ryanweldzius.shinyapps.io">{% endif %}
+  {% if site.google_analytics and jekyll.environment == "production" %}
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ site.google_analytics }}');
+  </script>
+  {% endif %}
 </head>
 <body>
   <header class="site-header">
